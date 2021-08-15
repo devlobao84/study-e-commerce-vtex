@@ -2,10 +2,15 @@
   "vendor": "hiringcoders2021",
   "name": "popototheme",
   "version": "0.0.1",
+  "title": "Countdown",
+  "description": "Countdown, component",
+  "defaultlocale": "pt-BR",
   "builders": {
+    "messages": "1.x",    
     "styles": "2.x",
     "store": "0.x",
-    "docs": "0.x"
+    "docs": "0.x",
+    "react": "3.x"
   },
   "scripts": {
     "postreleasy": "vtex publish --verbose"
@@ -49,7 +54,6 @@
     "vtex.store-link": "0.x",
     "vtex.modal-layout": "0.x",
     "vtex.product-price": "1.x"
-    
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

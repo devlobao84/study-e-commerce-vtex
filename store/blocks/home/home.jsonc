@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "__fold__",
       "stack-layout#cta",
       "flex-layout.row",
       "slider-layout#home",
@@ -224,6 +225,12 @@
   } 
 
   }
+
+
+
+
+
+
 
 
 
